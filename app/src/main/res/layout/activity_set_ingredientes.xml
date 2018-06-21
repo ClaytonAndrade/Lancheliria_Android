@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    tools:context="com.example.claytonandrade.lanchonetemodelo.SetIngredientes">
+
+        <LinearLayout
+            android:layout_marginBottom="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imagem_do_lanche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/x_salada" />
+
+            <TextView
+                android:id="@+id/nome_do_lanche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10sp"
+                android:text="@string/x_salada"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/ltv_ingredientes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"></ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_weight="0">
+
+            <Button
+                android:id="@+id/btn_rem_ingredientes"
+                android:layout_marginBottom="5sp"
+                android:onClick="RetirarIngredientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_remover_ingredientes"
+                android:textSize="20sp"
+                android:textColor="@color/branco"
+                android:background="@color/colorCardapio"/>
+
+            <Button
+                android:id="@+id/btn_add_ingredientes"
+                android:layout_marginBottom="5sp"
+                android:onClick="AdicionarIngredientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCardapio"
+                android:text="@string/btn_adicionar_ingredientes"
+                android:textColor="@color/branco"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_confirmar_ingredientes"
+                android:layout_marginBottom="5sp"
+                android:onClick="AdicionarAoPedido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_confirmar_ingredientes"
+                android:textSize="20sp"
+                android:textColor="@color/branco"
+                android:background="@color/colorCardapio"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>

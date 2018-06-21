@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <!--<item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />-->
+        <item
+            android:id="@+id/nav_cardapio"
+            android:icon="@drawable/ic_restaurant_black_24dp"
+            android:title="@string/menu_cardapio" />
+        <item
+            android:id="@+id/nav_bebidas"
+            android:icon="@drawable/ic_local_bar_black_24dp"
+            android:title="@string/menu_bebidas" />
+        <item
+            android:id="@+id/nav_pedido"
+            android:icon="@drawable/ic_shopping_basket_black_24dp"
+            android:title="@string/menu_pedido" />
+        <item
+            android:id="@+id/nav_end_entrega"
+            android:icon="@drawable/end_entrega"
+
+            android:title="@string/menu_end_entrega" />
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_contact_phone_24dp"
+            android:title="@string/menu_contato" />
+        <item
+            android:id="@+id/nav_localidade"
+            android:icon="@drawable/ic_location_24dp"
+            android:title="@string/menu_localidade" />
+    </group>
+
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_desenvolvedores"
+                android:icon="@drawable/ic_devices_other_black_24dp"
+                android:title="@string/menu_anuncio" />
+        </menu>
+    </item>
+
+</menu>

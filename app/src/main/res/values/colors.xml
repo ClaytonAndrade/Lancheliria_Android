@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ed8230</color>
+    <color name="colorPrimaryDark">#ec7104</color>
+    <color name="colorCardapio">#dfe69b2a</color>
+    <color name="colorAccent">#e63532</color>
+    <color name="colorFontSplash">#ffc400</color>
+    <color name="coloranuncio1">#f9c003</color>
+    <color name="coloranuncio2">#f91303</color>
+    <color name="coloranuncio3">#25b636</color>
+    <color name="coloranuncio4">#2566b6</color>
+    <color name="coloranuncio5">#8d25b6</color>
+    <color name="branco">#ffffff</color>
+
+</resources>

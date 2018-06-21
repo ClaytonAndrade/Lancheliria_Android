@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Lanchonete Modelo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Menu navegação-->
+    <string name="menu_cardapio">Cardápio</string>
+    <string name="menu_bebidas">Bebidas</string>
+    <string name="menu_pedido">Pedido</string>
+    <string name="menu_patrocinadores">Patrocinadores</string>
+    <string name="menu_contato">Contato</string>
+    <string name="menu_localidade">Onde Estamos</string>
+    <string name="menu_end_entrega">Endereço Entrega</string>
+    <string name="menu_anuncio">Para Anunciar</string>
+    <string name="menu_home">Home</string>
+    <string name="title_activity_cardapio">Cardapio</string>
+    <string name="title_activity_bebidas">Bebidas</string>
+    <string name="title_activity_pedido">Pedido</string>
+    <string name="title_activity_entrega">Entrega</string>
+    <string name="title_activity_contato">Contato</string>
+    <string name="title_activity_localidade">Localidade</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!--Fonte Splash-->
+    <string name="titulo_lancheria">Lancheria</string>
+    <string name="titulo_modelo">Modelo</string>
+
+    <!--Botoes-->
+    <string name="btn_pedir">Pedir</string>"
+
+    <!--Itens Cardapio-->
+    <string name="x_salada">X Salada</string>
+    <string name="x_burg">X Burg</string>
+    <string name="x_bacon">X Bacon</string>
+    <string name="x_calabresa">X Calabresa</string>
+    <string name="x_salada_ingredientes">Pão, maionese, alface, tomate, carne, presunto, queijo, milho, ervilha e batata palha</string>
+    <string name="x_burg_ingredientes">Pão, maionese, carne, presunto, queijo e batata palha</string>
+    <string name="x_bacon_ingredientes">Pão, maionese, alface, tomate, carne, presunto, queijo, milho, ervilha, bacon e batata palha</string>
+    <string name="x_calabresa_ingredientes">Pão, maionese, alface, tomate, carne, presunto, queijo, milho, ervilha, calabresa e batata palha</string>
+
+    <!--Lista de Ingredientes-->
+    <string name="btn_remover_ingredientes">Retirar Ingredientes</string>
+    <string name="btn_adicionar_ingredientes">Adicionar Ingredientes</string>
+    <string name="btn_confirmar_ingredientes">Adicionar ao Pedido</string>
+
+    <string-array name="ingredientes">
+        <item> Pão </item>
+        <item> Maionese </item>
+        <item> Alface </item>
+        <item> Tomate </item>
+        <item> Carne </item>
+        <item> Presunto </item>
+        <item> Queijo </item>
+        <item> Milho </item>
+        <item> Ervilha </item>
+        <item> Bata Palha </item>
+    </string-array>
+
+    <string-array name="gostinho">
+        <item> Carne (R$ 2,00) </item>
+        <item> Bacon (R$ 3,00) </item>
+        <item> Calabresa (R$ 2,00) </item>
+        <item> Coração (R$ 3,00) </item>
+        <item> Frango (R$ 2,00)</item>
+    </string-array>
+
+    <string-array name="lista_valores_gostinho">
+        <item> R$ 2,00 </item>
+        <item> R$ 3,00 </item>
+        <item> R$ 2,00 </item>
+        <item> R$ 3,00 </item>
+        <item> R$ 2,00 </item>
+    </string-array>
+
+    <!--BebidaModel-->
+    <string name="coca">Coca </string>
+    <string name="sukita_uva">Sukita Uva </string>
+    <string name="fanta_laranja">Fanta Laranja </string>
+    <string name="pepsi">Pepsi</string>
+    <!--tipo-->
+    <string name="lata">Lata 350ml</string>
+
+    <!--Preços-->
+    <string name="valor_salada">R$ 10,00</string>
+    <string name="valor_burg">R$ 9,00</string>
+    <string name="valor_bacon">R$ 13,00</string>
+    <string name="valor_calabresa">R$ 12,00</string>
+    <string name="valor_refri_lata">R$ 4,00</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDKltMMGol56PKxlAnBJGTs4Ka3z8MzxDw
+    </string>
+    <string name="title_activity_onde_estamos">Onde Estamos</string>
+
+</resources>
